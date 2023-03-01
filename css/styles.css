@@ -65,11 +65,24 @@ h3 {
   font-size: x-large;
 }
 
-.features-item {
+.features-row {
   text-align: center;
-  margin: 0 1.5rem;
+}
+
+.features-card {
+  margin: 1.5rem 0;
 }
 
 .features-desc {
   color: #bfbfbf;
+}
+
+.fa-features {
+  color: #cf8172;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.fa-features:hover {
+  color: #ff4c68;
 }
