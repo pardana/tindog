@@ -18,7 +18,7 @@ h1 {
   line-height: 1.5;
 }
 
-/* Navbar */
+/* ========= Navbar ========= */
 
 .navbar {
   /* margin: 0 1rem; */
@@ -51,4 +51,25 @@ h1 {
   width: 60%;
   transform: rotate(25deg);
   text-align: center;
+}
+
+/* ========= Features ========= */
+
+#features {
+  padding-top: 5%;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.features-item {
+  text-align: center;
+  margin: 0 1.5rem;
+}
+
+.features-desc {
+  color: #bfbfbf;
 }
