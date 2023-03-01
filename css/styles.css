@@ -1,14 +1,11 @@
+/* ========= Global ========= */
+
 body {
   font-family: "Montserrat", sans-serif;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
-
-.container-fluid {
-  padding: 3% 15%;
+p {
+  color: #8f8f8f;
 }
 
 h1 {
@@ -19,6 +16,14 @@ h1 {
 }
 
 /* ========= Navbar ========= */
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
 
 .navbar {
   /* margin: 0 1rem; */
@@ -56,7 +61,7 @@ h1 {
 /* ========= Features ========= */
 
 #features {
-  padding-top: 5%;
+  padding: 7% 15%;
 }
 
 h3 {
@@ -65,16 +70,9 @@ h3 {
   font-size: x-large;
 }
 
-.features-row {
+.features-box {
+  padding: 5% 1.5rem;
   text-align: center;
-}
-
-.features-card {
-  margin: 1.5rem 0;
-}
-
-.features-desc {
-  color: #bfbfbf;
 }
 
 .fa-features {
