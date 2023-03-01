@@ -15,6 +15,16 @@ h1 {
   line-height: 1.5;
 }
 
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  /* font-size: 3rem; */
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
 /* ========= Navbar ========= */
 #title {
   background-color: #ff4c68;
@@ -73,14 +83,4 @@ h3 {
 .features-box {
   padding: 5% 1.5rem;
   text-align: center;
-}
-
-.fa-features {
-  color: #cf8172;
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.fa-features:hover {
-  color: #ff4c68;
 }
